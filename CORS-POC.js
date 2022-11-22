@@ -10,7 +10,7 @@ const args = process.argv.slice(2);
 const URL = args[0];
 const INJECTION = args[1];
 const FILE = args[2];
-
+const PDF = args[3];
 
 //Main
 if(!Self_Args.length){
@@ -49,7 +49,7 @@ if(!Self_Args.length){
 
 	`,'\x1b[0m');
 
-    console.log("node CORS-POC.js <url> <injection> <poc-file>")
+    console.log("node CORS-POC.js <url> <injection> <poc-file> <pdf-report>")
     process.exit()
 }
 
